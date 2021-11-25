@@ -28,7 +28,7 @@ header {
 
 }
 
-.menu-container {
+.user-container-container {
     flex: 1;
     display: flex;
     flex-direction: row;
@@ -43,7 +43,18 @@ header {
     justify-content: center;
     align-items: center;
 
+
 }
+
+.clock {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex:1;
+    margin-right: 30px;
+}
+
+
 
 .logo-title-text {
     width: 236px;
@@ -52,7 +63,7 @@ header {
     margin-left: 27px;
 }
 
-.menu-button {
+.user-singup {
     margin-left: 40px;
     margin-right: 40px;
     cursor: pointer;
@@ -125,7 +136,7 @@ footer {
 
 .logo-title-text1 {
     size: 18px;
-    font-family: font-family: 'nunito', sans-serif;
+    font-family: 'nunito', sans-serif;
 }
 
 
