@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Портал для обучения</title>
+    <link rel="stylesheet" href="calcStyle.css">
+    <script src="cacl.js" defer></script>
+    </head>
+<body>
+        <header>
+            <div class="logo_container">
+                <div class="logo_button">Логотип</div>
+                <div class="logo_title">
+                    <p class="logo-title-text">Заголовок как на главной странице</p></div>
+            </div>
+            <div class="menu-container">
+                <div class="menu-button">Таблица тегов</div>
+                <div class="menu-button">Видео</div>
+                <div class="menu-button">Аудио</div>
+                <div class="menu-button">Калькулятор</div>
+
+            </div>
+
+        </header>
+        <main>
+            <div class="calc-container">
+                    <div class="cacl-title">Калькулятор</div>
+                    <div class="calc-body">
+                         <textarea id="numpad-textarea"></textarea>
+                            <div class="numpad-container">
+                                <div class="numpad-row">
+                                    <button onclick="sumNumbers()">+</button>
+                                    <button onclick="subNumbers()">-</button>
+                                    <button onclick="multiNumbers()">*</button>
+                                    <button>C</button>
+                                    <button>√</button>
+                                </div>
+                                <div class="numpad-row">
+                                    <button class="number" onclick="enterNumber (7)">7</button>
+                                    <button class="number" onclick="enterNumber (8)" >8</button>
+                                    <button class="number"  onclick="enterNumber (9)">9</button>
+                                    <button>/</button>
+                                    <button>Ln n</button>
+                                </div>
+                                <div class="numpad-row">
+                                    <button class="number" onclick="enterNumber (4)">4</button>
+                                    <button class="number" onclick="enterNumber (5)">5</button>
+                                    <button class="number" onclick="enterNumber (6)">6</button>
+                                    <button class="proc">%</button>
+                                    <button>x^n</button>
+                                </div>
+                                <div class="numpad-row">
+                                    <button class="number" onclick="enterNumber (1)">1</button>
+                                    <button class="number" onclick="enterNumber (2)">2</button>
+                                    <button class="number" onclick="enterNumber (3)" >3</button>
+                                    <button class="number" onclick="enterNumber (0)">0</button>
+                                    <button>=</button>
+                                </div>
+
+
+                            </div>
+                    </div>
+
+
+            </div>
+
+
+
+
+
+
+        </main>
+
+
+
+</body>
+</html>
