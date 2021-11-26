@@ -40,7 +40,21 @@ const multiNumbers = () => {
         textarea.value = textarea.value + '*'
 }
 
+function clean() {
+        textarea.value = "";
+}
 
+function equal() {
+        let exp = textarea.value;
+        if (exp) {
+                textarea.value = eval(exp);
+        }
+}
+
+function insert(num){
+        textarea.value = textarea.value + num;
+
+}
 
 // const buttons = document.querySelectorAll('.number')
 //
