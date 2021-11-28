@@ -70,12 +70,14 @@ header {
     display: flex;
     height: 96%;
     align-items: center;
+
 }
 
 .menu-button:hover {
     border-bottom: 5px #37ABFF solid;
 
 }
+
 
 
 
@@ -89,49 +91,52 @@ header {
 /*    display: flex;*/
 /*}*/
 
-footer {
-    background-color: #E1E8F1;
-    height: 166px;
+
+
+
+
+.footer {
+    padding-right: 180px;
     padding-left: 180px;
-
-
+    height: 166px;
+    background-color:  #E1E8F1;
 }
 
-.logo_container_footer {
-    flex: 1;
+.footer-block {
     display: flex;
-    align-items: center;
-
 }
 
-.logo_title-footer {
-    display: flex;
-    align-items: center;
-    margin-left: 27px;
-}
-
-
-.logo_button-footer {
-    width: 112px;
-    height: 69px;
-    display: flex;
-    flex: 1;
-    background-color: #1389E6;
-    justify-content: center;
-    align-items: center;
-}
-
-.logo_button-ok {
-    margin-right: 30px;
-    width: 246px;
-    height: 60px;
-    background-color: #10376E;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.footer-button-logo {
+    margin: 0;
+    margin-top: 30px;
+    background: #1389E6;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
     color: white;
-    font-size: 22px;
-    font-family: 'nunito', sans-serif;
+    cursor: pointer;
+}
+
+.footer-button-ok {
+    margin: 0;
+    margin-top: 30px;
+    background: #10376E;
+    box-shadow: 0px 4px 30px rgba(16, 55, 110, 0.2);
+    padding: 14px 94px;
+    font-size: 24px;
+    line-height: 32px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.footer-text {
+    margin: 30px 20px 0 20px;
+    width: 70%;
+    font-family: Nunito;
+    font-size: 18px;
+    line-height: 25px;
 }
 
 .logo-title-text1 {
@@ -197,4 +202,3 @@ footer {
 .tag_audio {
     color: blue;
 }
-
